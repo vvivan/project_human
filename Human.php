@@ -1,6 +1,8 @@
 <?php
 
-
+/**
+ * Class Human
+ */
 abstract class Human
 {
 
@@ -13,10 +15,10 @@ abstract class Human
     abstract protected function getSkinTone();
 
 
-    /*
+    /**
      * Defines human with properties
      *
-     * @return string
+     * @return array
      */
     public function generals()
     {
